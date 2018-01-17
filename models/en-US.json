@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "Which country",
+        "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "CustomNoIntent",
+          "samples": [
+            "no" 
+          ]
+        } ,
+        {
+          "name": "CountryGuessIntent",
+          "samples": [
+            "{country}",
+            "it is in {country}",
+            "how about {country}",
+            "could be {country}"
+          ],
+          "slots": [{
+            "name": "country", "type": "AMAZON.Country"
+            }]
+          } 
+      ]
+    }
+  }
+}
