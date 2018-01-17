@@ -1,0 +1,24 @@
+{
+  "name": "InWhatState",
+  "version": "1.0.0",
+  "description": "Which state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lars159/inwhatstate.git"
+  },
+  "keywords": [
+    "Alexa",
+    "game",
+    "skill"
+  ],
+  "author": "cronit.se",
+  "license": "Apache-2.0",
+  "homepage": "https://cronit.se",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  }
+}

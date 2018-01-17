@@ -1,0 +1,44 @@
+{
+    "skillManifest": {
+      "publishingInformation": {
+        "locales": {
+          "en-US": {
+            "summary": "Guess which country of the city or monument that Alexa ask you",
+            "examplePhrases": [
+              "Alexa  which country",
+              "Alexa start  which country" 
+            ], 
+            "smallIconUri" : "https://s3-eu-west-1.amazonaws.com/cronit/108.png",
+            "largeIconUri": "https://s3-eu-west-1.amazonaws.com/cronit/512.png",
+            "name": "Which country",
+            "description": "Guess which country of the city or monument that Alexa ask you",
+            "keywords": [
+                "Game country",
+                "guess in which country",
+                "country"
+              ]
+          }
+        },
+        "isAvailableWorldwide": true,
+        "testingInstructions": "Guess which country of the city or monument that Alexa ask you",
+        "category": "GAMES",
+        "distributionCountries": []
+      },
+      "apis": {
+        "custom": {
+          "endpoint": {
+            "sourceDir": "lambda/custom"
+          }
+        }
+      },
+      "privacyAndCompliance": {
+        "allowsPurchases": false,
+        "usesPersonalInfo": false,
+        "isChildDirected": false,
+        "isExportCompliant": true,
+        "containsAds": false
+      },
+
+      "manifestVersion": "1.0"
+    }
+  }

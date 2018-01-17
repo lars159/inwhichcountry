@@ -1,0 +1,33 @@
+{
+    "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": ["no"]
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    },
+ 
+    {
+      "name": "CountryGuessIntent",
+      "samples": [
+        "{country}",
+        "is it {country}",
+        "how about {country}",
+        "could be {country}"
+      ],
+      "slots": [{
+        "name": "country", "type": "AMAZON.Country"
+        }]
+      }
+  ]
+}
